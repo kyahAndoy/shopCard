@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.box-container {
+  padding: 50px 50px;
+  width: 50%;
+  margin: 100px auto;
+}
+
+h1 {
+  font-size: 1.2rem;
+
+  border-bottom: 1px rgb(107, 106, 106) solid;
+}
+p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  display: inline-block;
+  width: 250px;
+  height: 350px;
+  background-color: rgb(212, 209, 209);
+  margin: 30px 20px;
+  border-radius: 20px;
+  transition: 250ms ease-in-out;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover {
+  transition: 250ms ease-in-out;
+  color: black;
+  background-color: white;
+  box-shadow: 10px 20px 20px rgb(124, 119, 119);
+}
+
+.box1:hover img {
+  transition: 250ms ease-in-out;
+  filter: grayscale(0%);
+}
+
+.box3:hover img {
+  transition: 250ms ease-in-out;
+  filter: grayscale(0%);
+}
+
+.box2:hover img {
+  transition: 250ms ease-in-out;
+  filter: grayscale(0%);
+}
+
+.box4:hover img {
+  transition: 250ms ease-in-out;
+  filter: grayscale(0%);
+}
+
+.box5:hover img {
+  transition: 250ms ease-in-out;
+  filter: grayscale(0%);
+}
+
+.box6:hover img {
+  transition: 250ms ease-in-out;
+  filter: grayscale(0%);
+}
+
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 250px;
+  height: 150px;
+  filter: grayscale(100%);
+  transition: 250ms ease-in-out;
+}
+
+.title,
+.content {
+  margin: 10px 20px;
+}
+
+.box1 h1::after {
+  content: "30$";
+  margin-left: 50px;
+}
+
+.box2 h1::after {
+  content: "70$";
+  margin-left: 80px;
+}
+
+.box3 h1::after {
+  content: "80$";
+  margin-left: 110px;
+}
+
+.box4 h1::after {
+  content: "40$";
+  margin-left: 60px;
+}
+
+.box5 h1::after {
+  content: "90$";
+  margin-left: 90px;
+}
+
+.box6 h1::after {
+  content: "10$";
+  margin-left: 140px;
+}
+
+button {
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(99, 161, 5);
+  color: white;
+  border: none;
+  margin: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.fa {
+  padding-right: 10px;
+}
+
+button:focus {
+  outline-style: none;
+}
